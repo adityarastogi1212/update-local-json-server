@@ -1,0 +1,49 @@
+{
+  "mydata": [
+    {
+      "name": "some name",
+      "address": "some address",
+      "email": "some email",
+      "rating": 5,
+      "id": 1
+    },
+    {
+      "name": "aditya",
+      "address": "hostel",
+      "email": "aditya@gmail.com",
+      "rating": "5",
+      "id": 2
+    },
+    {
+      "name": "aditya",
+      "address": "hostel",
+      "email": "aditya@gmail.com",
+      "rating": "5",
+      "id": 3
+    },
+    {
+      "name": "ram",
+      "address": "bangalore",
+      "email": "ram@gmail.com",
+      "rating": "4",
+      "id": 4
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

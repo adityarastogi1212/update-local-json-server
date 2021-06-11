@@ -1,0 +1,8 @@
+<h1>Fill The Form </h1>
+<form #userPost="ngForm" (ngSubmit)="onSubmit(userPost.value)">
+  <input type="text" name="name" ngModel placeholder="name"><br><br>
+  <input type="text" name="address" ngModel placeholder="address"><br><br>
+  <input type="text" name="email" ngModel placeholder="email"><br><br>
+  <input type="text" name="rating" ngModel placeholder="rating"><br><br>
+  <button type="submit">Submit Data</button>
+</form>
